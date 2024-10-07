@@ -1,8 +1,8 @@
 import './PostBody.scss';
-
+import imgBody from '../../assets/body.jpg'
 const PostBody = () => {
   return (
-    <div>PostBody</div>
+    <img className='Post-Img-Body' src={imgBody} alt="" />
   )
 }
 
