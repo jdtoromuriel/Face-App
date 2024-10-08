@@ -1,0 +1,19 @@
+.Likes-Comments{
+  display: flex;
+  justify-content: space-around;
+
+  .Like-Comment{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    opacity: 0.9;
+    img {
+      width: 18px;
+    }
+  }
+
+  .Like-Comment:hover{
+    background-color: #F2F2F2;
+  }
+}
